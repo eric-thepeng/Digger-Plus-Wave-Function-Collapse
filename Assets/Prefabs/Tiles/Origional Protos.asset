@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a89b77adb52644a9c1ad3bafcd38c1, type: 3}
+  m_Name: Origional Protos
+  m_EditorClassIdentifier: 
+  protos:
+  - {fileID: 5008193363630027169, guid: 2710f842dd6a15149b0b7041b990a1af, type: 3}
+  - {fileID: 4998096385283209852, guid: 3927d57b6d2ed6b419b2c790b1df09b9, type: 3}
+  - {fileID: 2147955994484197758, guid: e5ec919f8eec037468b9b282d79d9203, type: 3}
+  - {fileID: 480325933291769779, guid: c227d715537808d4f88efdac58d5cbfc, type: 3}
+  - {fileID: 8745004218502429053, guid: 5d29672b3dba44f44bbf64981a1264a5, type: 3}
+  - {fileID: 1026252932883663777, guid: be064e33eda283940a90a1cd8fb22f42, type: 3}
+  - {fileID: 6861034669157631939, guid: 37cfd3c77e4f43f498798550354d13b1, type: 3}
+  - {fileID: 7495829244251908196, guid: eb3e87471dc3c3e49bbd1af320630747, type: 3}
+  - {fileID: 1956878476802256926, guid: 1d3313b9c5147e24bb2951a482a04629, type: 3}
+  - {fileID: 6282884937644222366, guid: cbed88a5d1522ab41b8373f44b437cbf, type: 3}
+  - {fileID: 8629666740363027575, guid: 5c6325ea58e61ef4892911dcece81eaa, type: 3}
+  - {fileID: 8355588775743345835, guid: 30c3a94b31ac5114e82a1fc2cfc592dd, type: 3}
+  - {fileID: 3731444592758090921, guid: ff706c2403ce3cb4c9b616c2d36f52fd, type: 3}
+  - {fileID: 537628241096068137, guid: bcc3526d3efb86a4c96ca63fae0074e0, type: 3}
+  - {fileID: 6356710060475668989, guid: 60da17f77da06cf47a242ff5776d609b, type: 3}
+  - {fileID: 2612088498486198811, guid: 859df711dde513c4789077749f7f5b0a, type: 3}
+  - {fileID: 3115339867188717028, guid: 13063a6c179402340a1f5b7e8a5a12db, type: 3}
