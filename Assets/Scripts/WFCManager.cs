@@ -31,8 +31,6 @@ public class WFCManager : MonoBehaviour
     public void BeginGeneration(List<Vector2Int> allCoords)
     {
         GenerateProtos();
-
-        print("start---------------------------------------------------------------------------------------------");
         int tries = 0;
         bool result = false;
         do
@@ -65,7 +63,7 @@ public class WFCManager : MonoBehaviour
     IEnumerator VisualizedBuilding()
     {
         int count = 0;
-        int changePerFrame = 10;
+        int changePerFrame = 1;
         while (count <= recordTrack.Count)
         {
             for (int i = count; (i < count+changePerFrame) && (i < recordTrack.Count); i++)
@@ -74,7 +72,7 @@ public class WFCManager : MonoBehaviour
                 GameObject newGO = Instantiate(map[coord].GetObservedValue().prefab);
                 newGO.transform.position = new Vector3(2 * coord.x, 0, 2 * coord.y);
                 newGO.transform.Rotate(new Vector3(0, 1, 0), 90 * map[coord].GetObservedValue().rotationIndex);
-                GenerationManager.i.AddedNewTile(recordTrack[i].Key,recordTrack[i].Value,protoDataCount,map[recordTrack[i].Key].GetObservedValue().prefab);
+                GenerationManager.i.AddedNewTile(recordTrack[i].Key, recordTrack[i].Value, protoDataCount, newGO);// map[recordTrack[i].Key].GetObservedValue().prefab);
             }
 
             count += changePerFrame;
@@ -108,8 +106,6 @@ public class WFCManager : MonoBehaviour
         while (DoUnobservedNodesExist())
         {
             Vector2Int node = GetNextUnobservedNode();
-            print("------------------------------------------");
-            print("Star Observing: " + node + " it has " + map[node].NumValues());
             //PrintStatus();
             if (map[node].NumValues() == 0) return false;
             map[node].Observe();
@@ -163,7 +159,6 @@ public class WFCManager : MonoBehaviour
         }
 
         protoDataCount = allProtoData.Count;
-        print("Total amount of protos: " + protoDataCount);
     }
 
     private void PrintStatus()

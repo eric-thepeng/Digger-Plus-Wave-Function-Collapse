@@ -42,9 +42,12 @@ public class Digger : MonoBehaviour {
         // Stamp or Corridor
         if (Random.value <= diggerData.roomProbability)
         {
-            for (int xOffset = 0; xOffset < diggerData.roomWidth; xOffset++)
+            int roomWidth = Random.Range(diggerData.roomWidthMin,diggerData.roomWidthMax);
+            int roomHeight = Random.Range(diggerData.roomHeightMin, diggerData.roomHeightMax);
+
+            for (int xOffset = 0; xOffset < roomWidth; xOffset++)
             {
-                for (int yOffset = 0; yOffset < diggerData.roomDepth; yOffset++)
+                for (int yOffset = 0; yOffset < roomHeight; yOffset++)
                 {
                     Vector2Int floorPosition = currentCoord + new Vector2Int(xOffset, yOffset);
                     MaybeStampFloor(floorPosition);
@@ -93,13 +96,11 @@ public class Digger : MonoBehaviour {
         {
             numOfDiggers++;
             GameObject go = Instantiate(this.gameObject);
-            print("spawn digger, now have " + numOfDiggers);
-            print("roll is: " + roll + " chance is " + diggerData.spawnNewDiggerProbabilityCurve.Evaluate(0.1f * numOfDiggers));
+
         }
         else if (roll < diggerData.spawnNewDiggerProbabilityCurve.Evaluate(0.1f * numOfDiggers) + diggerData.deleteDiggerProbabilityCurve.Evaluate(0.1f * numOfDiggers)) //delete digger
         {
             numOfDiggers--;
-            print("delete digger, now have " + numOfDiggers);
             Destroy(this.gameObject);
         }
     }

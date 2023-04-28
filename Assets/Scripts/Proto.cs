@@ -11,7 +11,8 @@ public class Proto : MonoBehaviour
     Wall,
     RedBarrel,
     RedTube,
-    Door_Single
+    Door_Single,
+    Road_Basic
     }
     public List<Adjacency> front1, front2, left1, left2, back1, back2, right1, right2;// backAdjacency, leftAdjacency, rightadjacency;
     public float weight = 1.0f;

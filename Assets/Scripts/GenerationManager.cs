@@ -60,7 +60,7 @@ public class GenerationManager : MonoBehaviour
     {
         if ((int)choicesLeft == 1 )
         {
-            GameObject toDestroy = allTilesMap[newCoord];
+                GameObject toDestroy = allTilesMap[newCoord];
                 Destroy(toDestroy.gameObject);
                 allTilesMap[newCoord] = newGO;
         }

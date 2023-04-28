@@ -14,9 +14,11 @@ public class DiggerData : ScriptableObject
     public float turnRightProbability;
     public float turnAroundProbability;
 
-    public int roomWidth;
-    public int roomDepth;
     public float roomProbability;
+    public int roomWidthMax;
+    public int roomWidthMin;
+    public int roomHeightMax;
+    public int roomHeightMin;
 
     public float spawnNewDiggerBaseProbability;
     public float deleteDiggerBaseProbability;

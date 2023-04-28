@@ -18,9 +18,11 @@ MonoBehaviour:
   turnLeftProbability: 0.07
   turnRightProbability: 0.07
   turnAroundProbability: 0.02
-  roomWidth: 10
-  roomDepth: 10
   roomProbability: 0.01
+  roomWidthMax: 12
+  roomWidthMin: 7
+  roomHeightMax: 12
+  roomHeightMin: 7
   spawnNewDiggerBaseProbability: 0.01
   deleteDiggerBaseProbability: 0.1
   spawnNewDiggerProbabilityCurve:
