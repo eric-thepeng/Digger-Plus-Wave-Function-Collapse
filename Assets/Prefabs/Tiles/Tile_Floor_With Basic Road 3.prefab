@@ -105,6 +105,6 @@ MonoBehaviour:
   back2: 0000000005000000
   right1: 0000000005000000
   right2: 0000000005000000
-  weight: 0.02
+  weight: 0.01
   prefab: {fileID: 2362420631804269165}
   rotationIndex: 0

@@ -15,12 +15,12 @@ MonoBehaviour:
   stepWidth: 3
   stepDepth: 0
   maxNumberOfDiggers: 10
-  turnLeftProbability: 0.07
-  turnRightProbability: 0.07
+  turnLeftProbability: 0.08
+  turnRightProbability: 0.08
   turnAroundProbability: 0.02
   roomProbability: 0.01
   roomWidthMax: 12
-  roomWidthMin: 7
+  roomWidthMin: 9
   roomHeightMax: 12
   roomHeightMin: 7
   spawnNewDiggerBaseProbability: 0.01
