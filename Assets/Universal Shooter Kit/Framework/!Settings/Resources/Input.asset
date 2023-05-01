@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e227efdb5c7724bd6a494fe43b1ee752, type: 3}
+  m_Name: Input
+  m_EditorClassIdentifier: 
+  gamepadSticksInProjectSettings: 00000000010000000100000000000000
+  gamepadButtonsInProjectSettings: 0d0000000400000002000000080000000300000007000000000000000500000008000000090000000f0000000100000002000000030000000c0000000b0000000000000006000000010000000e000000
+  keyboardButtonsInProjectSettings: 290000002b00000027000000000000000600000001000000000000002f00000005000000080000003000000018000000040000000e0000000f0000000d0000001e0000001d0000001500000007000000100000000b000000
+  ButtonsActivityStatuses: 010101010101010101010101010101010101010101
+  holdSprintButton: 0
+  holdCrouchButton: 0
+  holdInventoryButton: 1
+  runWithJoystick: 0
+  mobileDebug: 0
+  runJoystickRange: 0.7
+  CharacterTags:
+  - Character
+  - Character 2
+  EnemiesTags:
+  - Enemy
+  - Robot
+  CubesSize: 10
+  CubeSolid: 1
+  oldScenePath: Assets/Universal Shooter Kit/Demos/Scenes/Single-player/Single Demo.unity
+  oldSceneName: Single Demo
+  defaultAvatars:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  aimButtonInteraction: 2
+  invertAxes: 0000000000
+  tab: 2

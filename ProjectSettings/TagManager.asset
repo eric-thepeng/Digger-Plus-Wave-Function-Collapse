@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Melee Collider
+  - Fire
+  - Cover
+  - Robot
   layers:
   - Default
   - TransparentFX
@@ -13,13 +17,13 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Character
+  - Enemy
+  - Grass
+  - Head
+  - Noise Collider
+  - Smoke
+  - MultiplayerCharacter
   - 
   - 
   - 

@@ -45,7 +45,7 @@ public class WFCManager : MonoBehaviour
         if (result == false)
         {
             print("Unable to solve wave function collapse after " + tries + " tries.");
-                BuildCurrent();
+            BuildCurrent();
         }
         else
         {
@@ -64,7 +64,7 @@ public class WFCManager : MonoBehaviour
     IEnumerator VisualizedBuilding()
     {
         int count = 0;
-        int changePerFrame = 1;
+        int changePerFrame = GenerationManager.i.visualizeSpeed;
         while (count <= recordTrack.Count)
         {
             for (int i = count; (i < count+changePerFrame) && (i < recordTrack.Count); i++)
@@ -141,11 +141,6 @@ public class WFCManager : MonoBehaviour
             unobservedNodes.Add(kvp.Key);
         }
         return unobservedNodes[Random.Range(0, unobservedNodes.Count)];
-    }
-
-    private void Update()
-    {
-        if (!generating) return;
     }
 
     public void GenerateProtos()

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c000f3249e5a47b3ac89cc87fce729d, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  Sparks: {fileID: 4000010197676760, guid: 4edabb1c0dde62743b137378c7d22980, type: 3}
+  Hit: {fileID: 0}
+  HitAudio: {fileID: 8300000, guid: 1b26a1515f8bc4a91ae64359187cd8c2, type: 3}
+  ShellDropSounds:
+  - {fileID: 8300000, guid: 12863ccaa56274d5bb44702508d78f4d, type: 3}
+  - {fileID: 8300000, guid: 5968f39c621704030b8d73d42542f0f8, type: 3}
+  - {fileID: 8300000, guid: 48a3d723dfb1c4599bfe465067af29c9, type: 3}
+  - {fileID: 8300000, guid: fd09373fab2654c9a884bb828b1bb97f, type: 3}
+  - {fileID: 8300000, guid: c473375281cc64ddebebee10293b84f6, type: 3}
+  - {fileID: 8300000, guid: d60418c83ed794c7aa5b229b9f7370a3, type: 3}
+  - {fileID: 8300000, guid: 68c378d99c3ee46e681da69ee54d484c, type: 3}
+  - {fileID: 8300000, guid: fa31ae6a4381f4910b28382917b3b580, type: 3}
+  - {fileID: 8300000, guid: 5626c419ea19946dfafb7db7e9b6041a, type: 3}
+  - {fileID: 8300000, guid: 38b66f277f4c7440ab2695bd582dcc43, type: 3}
+  - {fileID: 8300000, guid: 0bc0bc2447f3343b7bc10da7df9b4c02, type: 3}
+  - {fileID: 8300000, guid: 3e038a8bce1e447dc94a10f07a818aa3, type: 3}
+  - {fileID: 8300000, guid: a49c91dbc54334c0da4eaec495bd185c, type: 3}
+  - {fileID: 8300000, guid: 15179a1ab067743389624e739a80a1e5, type: 3}
+  CharacterFootstepsSounds:
+  - FootstepsAudios:
+    - {fileID: 8300000, guid: a829296e83128554cba9da342d83d361, type: 3}
+    - {fileID: 8300000, guid: 5d8455fb534849442ad490965ff71279, type: 3}
+    - {fileID: 8300000, guid: f4eb0a209807fbb40bd0759085f6f882, type: 3}
+    - {fileID: 8300000, guid: dc739d782ed6fe5439fb6de4a13f53bd, type: 3}
+    - {fileID: 8300000, guid: 6cb3eace11794c84db4995aa0a617ad1, type: 3}
+    - {fileID: 8300000, guid: 592e7903575792e48aed4b7e5b699e71, type: 3}
+  - FootstepsAudios: []
+  EnemyFootstepsSounds:
+  - FootstepsAudios:
+    - {fileID: 8300000, guid: a829296e83128554cba9da342d83d361, type: 3}
+    - {fileID: 8300000, guid: f4eb0a209807fbb40bd0759085f6f882, type: 3}
+    - {fileID: 8300000, guid: 5d8455fb534849442ad490965ff71279, type: 3}
+    - {fileID: 8300000, guid: 6cb3eace11794c84db4995aa0a617ad1, type: 3}
+    - {fileID: 8300000, guid: dc739d782ed6fe5439fb6de4a13f53bd, type: 3}
+    - {fileID: 8300000, guid: 592e7903575792e48aed4b7e5b699e71, type: 3}
+  - FootstepsAudios:
+    - {fileID: 8300000, guid: 6425cc139fdcc4eb7adf0b207569e9ac, type: 3}
+    - {fileID: 8300000, guid: 7b99befa1459e415eb0b6a70ebea94e7, type: 3}
+    - {fileID: 8300000, guid: 64dddcb5ebf254d7c975db981b7157fd, type: 3}
+    - {fileID: 8300000, guid: 981a019730c3a4e8eac8f5656a56bc51, type: 3}
+    - {fileID: 8300000, guid: 5d943c3df8d9c47f2943e86922b7dc88, type: 3}
+    - {fileID: 8300000, guid: 609f09052afbc4fc1aa1a66df5eedf03, type: 3}
+    - {fileID: 8300000, guid: 5bf92c210b6024a9c92b816b135473ca, type: 3}
+  currentCharacterTag: 0
+  currentEnemyTag: 1
+  tagsCount: 3
+  inspectorTab: 0
+  stepsTab: 0
+  ricochetChance: 30
+  penetrationWidth: 1
+  stepsForAllEnemies: 0
+  projectSettings: {fileID: 11400000, guid: c647da03305eb437887679be51a2d70c, type: 2}

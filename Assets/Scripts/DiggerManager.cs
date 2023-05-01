@@ -25,8 +25,6 @@ public class DiggerManager : MonoBehaviour
     public GenerationState state = GenerationState.NotStarted;
     int maxNumFloors;
 
-    public TMP_Text statusText;
-
     List<Vector2Int> generatedTiles = new List<Vector2Int>();
 
     public bool AddNewTile(Vector2Int toCheck)
@@ -56,15 +54,16 @@ public class DiggerManager : MonoBehaviour
         allDiggers.Add(go);
     }
 
+
     void Update()
     {
         if (state == GenerationState.InProcess)
         {
             float percentDone = Digger.totalFloors / (float)maxNumFloors;
-            statusText.text = "Generating ("
+            GenerationManager.i.UpdateText("Generating ("
                 + Mathf.FloorToInt(percentDone * 100)
                 + "%) Diggers: " + Digger.totalDiggers
-                + "\nPress R to Reload";
+                + "\nPress R to Reload");
 
             // We're done generating after we exceed the max number of floors
             if (Digger.totalFloors >= maxNumFloors)
@@ -74,11 +73,11 @@ public class DiggerManager : MonoBehaviour
         }
         else if (state == GenerationState.Complete)
         {
-            statusText.text = "Digger Done \n Press T to Perform WFC;";
+            GenerationManager.i.UpdateText("Digger Done \n Press T to Perform WFC;");
         }
         else if (state == GenerationState.NotStarted)
         {
-            statusText.text = "Ready to Start \n Press R to Perform Digger";
+            GenerationManager.i.UpdateText("Ready to Start \n Press R to Perform Digger");
         }
     }
 }

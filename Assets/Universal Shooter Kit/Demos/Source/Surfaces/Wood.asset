@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c000f3249e5a47b3ac89cc87fce729d, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  Sparks: {fileID: 4000010194457784, guid: beb3acff7ab73944fb8f470f24d74ed3, type: 3}
+  Hit: {fileID: 0}
+  HitAudio: {fileID: 8300000, guid: 1b26a1515f8bc4a91ae64359187cd8c2, type: 3}
+  ShellDropSounds: []
+  CharacterFootstepsSounds:
+  - FootstepsAudios: []
+  - FootstepsAudios: []
+  EnemyFootstepsSounds:
+  - FootstepsAudios: []
+  - FootstepsAudios: []
+  currentCharacterTag: 0
+  currentEnemyTag: 0
+  tagsCount: 3
+  inspectorTab: 1
+  stepsTab: 1
+  ricochetChance: 5
+  penetrationWidth: 2
+  stepsForAllEnemies: 0
+  projectSettings: {fileID: 11400000, guid: c647da03305eb437887679be51a2d70c, type: 2}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GenerationManager : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class GenerationManager : MonoBehaviour
         }
     }
 
+    public TMP_Text statusText;
+
     public DiggerData diggerData;
     public GameObject placeholderPrefab;
     public float tileSize = 5;
@@ -28,6 +31,7 @@ public class GenerationManager : MonoBehaviour
     public ProtoList origionalPortos;
 
     public bool visualizeWFC = true;
+    public int visualizeSpeed = 1;
 
     private List<Vector2Int> buildCompleted = new List<Vector2Int>();
     private void Update()
@@ -60,9 +64,10 @@ public class GenerationManager : MonoBehaviour
     {
         if ((int)choicesLeft == 1 )
         {
-                GameObject toDestroy = allTilesMap[newCoord];
+            GameObject toDestroy = allTilesMap[newCoord];
                 Destroy(toDestroy.gameObject);
                 allTilesMap[newCoord] = newGO;
+                newGO.transform.parent = this.transform;
         }
         /*
         if ((int)choicesLeft == 1 )
@@ -109,4 +114,9 @@ public class GenerationManager : MonoBehaviour
         DiggerManager.i.BeginGeneration(200);
         yield return new WaitForEndOfFrame();
     }*/
+
+    public void UpdateText(string newText)
+    {
+        statusText.text = newText;
+    }
 }
