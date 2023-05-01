@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17879544, g: 0.22387806, b: 0.305772, a: 1}
+  m_IndirectSpecularColor: {r: 0.17879574, g: 0.22387834, b: 0.30577275, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7161,10 +7161,6 @@ PrefabInstance:
     - target: {fileID: 3090857590299895166, guid: ff706c2403ce3cb4c9b616c2d36f52fd, type: 3}
       propertyPath: m_Name
       value: Tile_Wall (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5723644696499067115, guid: ff706c2403ce3cb4c9b616c2d36f52fd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff706c2403ce3cb4c9b616c2d36f52fd, type: 3}
