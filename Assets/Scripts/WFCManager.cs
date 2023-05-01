@@ -45,6 +45,7 @@ public class WFCManager : MonoBehaviour
         if (result == false)
         {
             print("Unable to solve wave function collapse after " + tries + " tries.");
+                BuildCurrent();
         }
         else
         {
