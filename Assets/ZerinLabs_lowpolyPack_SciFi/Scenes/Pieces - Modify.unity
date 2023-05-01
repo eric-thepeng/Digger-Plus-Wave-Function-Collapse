@@ -3707,6 +3707,24 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 19d248a9f6ca93f408d21cd2434fb0de, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 467697fab8fd846f59cf39ceca08c44e, type: 3}
+--- !u!1 &315543189811203761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9064076389250862847, guid: 467697fab8fd846f59cf39ceca08c44e, type: 3}
+  m_PrefabInstance: {fileID: 315543189811203760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &315543189811203762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315543189811203761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9999995, y: 3.0000002, z: 1.1040252}
+  m_Center: {x: 0.00000071525574, y: 1.5000004, z: -0.44798738}
 --- !u!114 &334192381293620482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5593,6 +5611,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be064e33eda283940a90a1cd8fb22f42, type: 3}
+--- !u!1 &2697242707109778682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7858373114685878245, guid: be064e33eda283940a90a1cd8fb22f42, type: 3}
+  m_PrefabInstance: {fileID: 2697242707109778681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2697242707109778683
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2697242707109778682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 3, z: 2}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1001 &2709041464278212673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9295,10 +9331,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4998096385283209852, guid: 3927d57b6d2ed6b419b2c790b1df09b9, type: 3}
-      propertyPath: weight
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6661071935163134888, guid: 3927d57b6d2ed6b419b2c790b1df09b9, type: 3}
       propertyPath: m_RootOrder
       value: 2
