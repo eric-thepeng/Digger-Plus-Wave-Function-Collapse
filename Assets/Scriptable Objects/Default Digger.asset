@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Default Digger
   m_EditorClassIdentifier: 
   stepWidth: 3
-  stepDepth: 0
+  stepDepth: 1
   maxNumberOfDiggers: 10
   turnLeftProbability: 0.08
   turnRightProbability: 0.08
   turnAroundProbability: 0.02
-  roomProbability: 0.02
-  roomWidthMax: 8
+  roomProbability: 0.03
+  roomWidthMax: 15
   roomWidthMin: 5
-  roomHeightMax: 8
+  roomHeightMax: 15
   roomHeightMin: 5
   spawnNewDiggerBaseProbability: 0.01
   deleteDiggerBaseProbability: 0.1

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using GercStudio.USK.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -118,5 +119,10 @@ public class GenerationManager : MonoBehaviour
     public void UpdateText(string newText)
     {
         statusText.text = newText;
+    }
+
+    public void BuildNavMesh()
+    { 
+        GetComponent<AIArea>().BuildNavMesh();
     }
 }

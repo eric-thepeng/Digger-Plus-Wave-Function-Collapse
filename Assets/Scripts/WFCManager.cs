@@ -41,7 +41,7 @@ public class WFCManager : MonoBehaviour
             PropogateWalls();
             result = RunWFC();
         }
-        while (result == false && tries < 10);
+        while (result == false && tries < 50);
         if (result == false)
         {
             print("Unable to solve wave function collapse after " + tries + " tries.");
@@ -79,6 +79,7 @@ public class WFCManager : MonoBehaviour
             count += changePerFrame;
             yield return new WaitForEndOfFrame();
         }
+        //GenerationManager.i.BuildNavMesh();
     }
 
     void BuildCurrent()

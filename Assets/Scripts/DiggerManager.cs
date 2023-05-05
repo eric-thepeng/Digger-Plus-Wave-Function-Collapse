@@ -47,6 +47,7 @@ public class DiggerManager : MonoBehaviour
             if (allDiggers[i] != null) Destroy(allDiggers[i]);
         }
         state = GenerationState.Complete;
+        //GenerationManager.i.BuildNavMesh();
     }
 
     public void DiggerAdded(GameObject go)
