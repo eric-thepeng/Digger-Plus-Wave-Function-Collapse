@@ -15,7 +15,6 @@ MonoBehaviour:
   protos:
   - {fileID: 5008193363630027169, guid: 2710f842dd6a15149b0b7041b990a1af, type: 3}
   - {fileID: 4998096385283209852, guid: 3927d57b6d2ed6b419b2c790b1df09b9, type: 3}
-  - {fileID: 2147955994484197758, guid: e5ec919f8eec037468b9b282d79d9203, type: 3}
   - {fileID: 480325933291769779, guid: c227d715537808d4f88efdac58d5cbfc, type: 3}
   - {fileID: 8745004218502429053, guid: 5d29672b3dba44f44bbf64981a1264a5, type: 3}
   - {fileID: 1026252932883663777, guid: be064e33eda283940a90a1cd8fb22f42, type: 3}
